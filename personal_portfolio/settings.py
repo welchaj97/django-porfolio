@@ -14,6 +14,8 @@ from pathlib import Path
 import os
 import django_heroku
 django_heroku.settings(locals())
+import confident
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -25,7 +27,7 @@ TEMPLATES_DIR = (BASE_DIR) / 'templates'
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-bb7=komhi3%+zj#50x389%^h%(o(m2&z$g0)t@u94e5w*!&mdw'
+SECRET_KEY = confident.KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
