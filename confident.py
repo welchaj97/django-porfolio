@@ -1,1 +1,0 @@
-KEY = 'django-insecure-bb7=komhi3%+zj#50x389%^h%(o(m2&z$g0)t@u94e5w*!&mdw'
